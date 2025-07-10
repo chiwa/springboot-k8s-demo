@@ -21,3 +21,5 @@ C
 k8s/ingress.yaml,f/3/f3012e103f1b2088474a4d04ba3768c4e2c04cb9
 @
 k8s/service.yaml,d/f/df494f0b80a74baa109fadc4f851d2244e52e9e8
+<
+k8s/hpa.yaml,8/c/8c680682d87e859191331d501fc1bf2ae26d4072

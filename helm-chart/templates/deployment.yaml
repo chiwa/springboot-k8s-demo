@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: demo-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: demo-app   # <-- ตรงกับ service
+  template:
+    metadata:
+      labels:
+        app: demo-app   # <-- ต้องตรงกันตรงนี้ด้วย
+    spec:
+      containers:
+        - name: demo
+          image: demo-app:latest
+          ports:
+            - containerPort: 8080

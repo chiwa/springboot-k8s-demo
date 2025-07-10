@@ -1,0 +1,20 @@
+replicaCount: 2
+image:
+  repository: demo-app
+  tag: latest
+service:
+  type: ClusterIP
+  port: 80
+ingress:
+  enabled: true
+  className: ""
+  annotations: {}
+  hosts:
+    - host: demo.local
+      paths:
+        - path: /hello
+          pathType: Prefix
+  tls:
+    - secretName: demo-tls
+      hosts:
+        - demo.local

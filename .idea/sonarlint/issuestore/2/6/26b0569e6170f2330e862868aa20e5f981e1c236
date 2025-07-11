@@ -1,0 +1,8 @@
+
+Œ
+java:S2259	"I"NullPointerException" will be thrown when invoking method "calculate()".(á˜Èû8ýúÇÍÿ2J$cac6177a-47ff-4100-b4a5-981a46c505fb
+€
+java:S2589"8Remove this expression which always evaluates to "false"(ëš‰Óûÿÿÿÿ8««¼Íÿ2J$229ecd64-31c1-48ba-aa41-62ebe780cd01
+r	java:S106"+Replace this use of System.out by a logger.(…‘ÉÑýÿÿÿÿ8ä¸»Íÿ2J$0233d8a1-6ad2-445d-b972-b9942398948c
+m	java:S106"+Replace this use of System.out by a logger.(ñª•ó8å¸»Íÿ2J$5c6941fb-fcee-4ec6-96e5-678ec866c295
+r	java:S106"+Replace this use of System.out by a logger.(´œàÚÿÿÿÿÿ8æ¸»Íÿ2J$994c3768-fc11-4bca-b379-d8c4d8e119d7

@@ -18,3 +18,38 @@ spec:
                 name: demo-service
                 port:
                   number: 80
+          - path: /info
+            pathType: Prefix
+            backend:
+              service:
+                name: demo-service
+                port:
+                  number: 80
+          - path: /health
+            pathType: Prefix
+            backend:
+              service:
+                name: demo-service
+                port:
+                  number: 80
+          - path: /ready
+            pathType: Prefix
+            backend:
+              service:
+                name: demo-service
+                port:
+                  number: 80
+          - path: /toggle-health
+            pathType: Prefix
+            backend:
+              service:
+                name: demo-service
+                port:
+                  number: 80
+          - path: /toggle-ready
+            pathType: Prefix
+            backend:
+              service:
+                name: demo-service
+                port:
+                  number: 80
